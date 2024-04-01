@@ -16,6 +16,8 @@ public class Bag {
     @NonFinal
     Ticket ticket;
 
+    @Setter
+    @NonFinal
     Invitation invitation;
 
     public boolean hasInvitation() {
